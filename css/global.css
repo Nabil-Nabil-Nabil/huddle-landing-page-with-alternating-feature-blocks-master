@@ -1,0 +1,58 @@
+:root {
+    /* Primary */
+    --Pink: hsl(322, 100%, 66%);
+
+    /* Neutral */
+    --Very-Pale-Cyan: hsl(193, 100%, 96%);
+    --Very-Dark-Cyan: hsl(192, 100%, 9%);
+    --Grayish-Blue: hsl(208, 11%, 55%);
+
+    --width:    hsl(0, 0%, 100%);
+
+    --ff-Poppins-600: 'Poppins', sans-serif;
+    --fw-600: 600;
+    --ff-Open-Sans-400-700: 'Open Sans', sans-serif;
+    --fw-400: 400;
+    --fw-700: 700;
+
+
+    
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+button {
+    border: none;
+}
+
+button:hover,
+a:hover,
+i:hover {
+    cursor: pointer;
+}
+
+body {
+
+    font-size: 18px;
+    /* display: flex; */
+    /* justify-content: center; */
+
+}
+
+.container {
+    /* max-width: 550px; */
+    display: grid;
+}

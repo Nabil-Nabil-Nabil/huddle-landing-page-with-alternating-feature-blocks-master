@@ -1,0 +1,86 @@
+header {
+    background: url(../images/bg-hero-mobile.svg);
+    background-position: left 0vw top 0vh;
+    background-color: var(--Very-Pale-Cyan);
+}
+
+/* Top Header ---------------------------- */
+header .top-header {
+    display: flex;
+    padding: 25px 16px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+header .top-header .logo {
+    width: 104px;
+}
+header .top-header .try-btn {
+    background: var(--width);
+    box-shadow: 0 4px 13px 0 hsl(0deg 0% 43% / 21%);
+    color: var(--Very-Dark-Cyan);
+    font-size: 11px;
+    font-weight: var(--fw-700);
+    font-family: var(--ff-Open-Sans-400-700);
+    border-radius: 16px;
+    padding: 4px 19px;
+}
+header .top-header .try-btn:hover {
+    opacity: .8;
+}
+
+/* Bottom Content ------------------------ */
+header .bottom-content {
+
+    margin-top: 57px;
+    text-align: center;
+    padding: 0 38px;
+
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/* Content */
+header .bottom-content .content {
+    
+    max-width: 521px;
+
+}
+header .bottom-content .content .header {
+    font-family: var(--ff-Poppins-600);
+    font-weight: var(--ff-Poppins-600);
+    font-size: 24px;
+    color: var(--Very-Dark-Cyan);
+}
+header .bottom-content .content .paragraph {
+    font-family: var(--ff-Open-Sans-400-700);
+    font-size: 16px;
+    font-weight: var(--fw-400);
+    color: var(--Very-Dark-Cyan);
+    margin-top: 21px;
+    line-height: 24px;
+}
+
+/* Button "Get" */
+header .bottom-content .content .get-btn {
+    font-family: var(--ff-Poppins-600);
+    color: var(--width);
+    background: var(--Pink);
+    font-weight: var(--fw-600);
+    padding: 11px 63px;
+    font-size: 11px;
+    margin-top: 32px;
+    border-radius: 22px;
+}
+header .bottom-content .content .get-btn:hover {
+    opacity: .8;
+}
+
+/* Image */
+header .bottom-content .img-div {
+    max-width: 400px;
+    padding-bottom: 35px;
+    margin-top: 55px;
+}

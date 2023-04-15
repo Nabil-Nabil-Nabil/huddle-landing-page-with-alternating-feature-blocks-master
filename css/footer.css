@@ -1,0 +1,123 @@
+footer {
+    margin-top: 229px;
+    position: relative;
+    background: var(--Very-Dark-Cyan);
+    color: var(--Very-Pale-Cyan);
+    padding: 141px 18px 50px;
+}
+
+/* "Ready To" Div ----------------------------- */
+footer .ready-to {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    background: var(--width);
+    box-shadow: 0 4px 13px 0 hsl(0deg 0% 43% / 21%);
+    /* color: var(--Very-Dark-Cyan); */
+    width: 350px;
+    transform: translate(-50%, -56%);
+    padding: 41px 0 44px;
+    text-align: center;
+    border-radius: 16px;
+}
+/* Header */
+footer .ready-to .header {
+    font-family: var(--ff-Poppins-600);
+    font-weight: var(--ff-Poppins-600);
+    font-size: 18px;
+    color: var(--Very-Dark-Cyan);
+}
+/* Button "Get" */
+footer .ready-to .get-btn {
+    font-family: var(--ff-Poppins-600);
+    color: var(--width);
+    background: var(--Pink);
+    padding: 11px 44px;
+    font-size: 11px;
+    margin-top: 27px;
+    border-radius: 22px;
+}
+footer .ready-to .get-btn:hover {
+    opacity: .8;
+}
+
+/* Info ---------------------------------------- */
+footer .info {
+}
+/* Logo */
+footer .info .logo {
+    width: 165px;
+    filter: invert(530%) sepia(199%) saturate(0%) hue-rotate(0deg) brightness(178%) contrast(199%);
+}
+
+/* Just -> Location Icon */
+footer .info .location .icon-div {
+    margin-right: 20px;
+}
+/* Flex All Divs in "Info" */
+footer .info > div:not(div:first-of-type) {
+    display: flex;
+    margin-top: 24px;
+    max-width: 366px;
+}
+/* All Info Icons */
+footer .info .icon-div {
+    width: 36px;
+    padding-top: 5px;
+}
+/* All Info Paragraph */
+footer .info .paragraph  {
+    font-family: var(--ff-Open-Sans-400-700);
+    font-size: 16.5px;
+    font-weight: var(--fw-400);
+    line-height: 22px;
+    color: var(--Very-Pale-Cyan);
+}
+/* Phone Number */
+/* Email Address */
+
+/* Links List ------------------------------------------- */
+footer .list {
+
+    margin-top: 67px;
+}
+footer .list li {
+
+}
+footer .list a {
+    color: var(--Very-Pale-Cyan);
+    text-decoration: none;
+    display: block;
+    padding: 0 0 18px;
+    font-size: 18px;
+    font-weight: var(--fw-400);
+    font-family: var(--ff-Open-Sans-400-700);
+}
+footer .list a:hover {
+    text-decoration: underline;
+}
+
+/* Icons Div ---------------------------------------------- */
+footer .icons {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 33px;
+}
+footer .icons i {
+    padding: 0 11px;
+    font-size: 25px;
+}
+footer .icons i:hover {
+    color: var(--Pink);
+}
+
+/* Copyright */
+footer > p:last-of-type {
+
+    font-size: 11px;
+    text-align: center;
+    padding: 20px 0 0px;
+    font-family: var(--ff-Open-Sans-400-700);
+    font-weight: var(--fw-400);
+}

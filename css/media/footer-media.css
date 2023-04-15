@@ -1,0 +1,83 @@
+@media (min-width: 1200px) {
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 206px 100px 128px;
+    margin-top: 364px;
+    position: relative;
+}
+
+/* "Ready To" Div ----------------------------- */
+footer .ready-to {
+    
+    width: 796px;
+    padding: 76px 0 47px;
+    transform: translate(-50%, -67%);
+}
+/* Header */
+footer .ready-to .header {
+    font-size: 33px;
+}
+/* Button "Get" */
+footer .ready-to .get-btn {
+    font-size: 19px;
+    padding: 26px 97px;
+    border-radius: 53px;
+}
+
+/* Info ---------------------------------------- */
+footer .info {
+}
+/* Logo */
+footer .info .logo {
+    width: 261px;
+}
+
+/* Just -> Location Icon */
+footer .info .location .icon-div {
+    
+}
+/* Flex All Divs in "Info" */
+footer .info > div:not(div:first-of-type) {
+    
+}
+/* All Info Icons */
+footer .info .icon-div {
+    
+}
+/* All Info Paragraph */
+footer .info .paragraph  {
+    
+}
+/* Phone Number */
+/* Email Address */
+
+/* Links List ------------------------------------------- */
+footer .list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    margin-left: 117px;
+}
+footer .list li {
+
+}
+footer .list a {
+    
+}
+
+/* Icons Div ---------------------------------------------- */
+footer .icons {
+    margin-top: 72px;
+}
+footer .icons i {
+    
+}
+
+/* Copyright */
+footer > p:last-of-type {
+    position: absolute;
+    right: 6%;
+    bottom: 11%;
+}
+}

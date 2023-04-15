@@ -1,0 +1,52 @@
+main {
+    max-width: 550px;
+    padding: 22px 20px 0;
+
+    justify-self: center;
+    margin-top: 40px;
+}
+
+/* All Sections ------------------------------- */
+main .section {
+    box-shadow: 0 0 10px hsla(0, 0%, 50%, 14%);
+}
+main .section .img-div {
+    padding: 54px 50px;
+}
+/* Content */
+main .section .content {
+    text-align: center;
+}
+/* Header */
+main .section .content .header {
+    font-family: var(--ff-Poppins-600);
+    font-weight: var(--fw-600);
+    font-size: 20px;
+    color: var(--Very-Dark-Cyan);
+    margin-top: 8px;
+}
+/* Paragraph */
+main .section .content .paragraph {
+
+    font-family: var(--ff-Open-Sans-400-700);
+    font-size: 14px;
+    font-weight: var(--fw-400);
+    color: var(--Grayish-Blue);
+    margin-top: 13px;
+    line-height: 22px;
+    padding: 0 31px 30px;
+}
+
+/* Just For "Section 1" & "Section 2" & "Section 3" */
+/* Just Section 1 */
+.section-1 {
+    
+}
+/* Just Section 2 */
+.section-2 {
+    
+}
+/* Just Section 3 */
+.section-3 {
+    
+}

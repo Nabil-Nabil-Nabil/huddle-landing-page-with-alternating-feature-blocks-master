@@ -1,0 +1,59 @@
+@media (min-width: 1200px) {
+main {
+    
+    margin-top: 124px;
+    max-width: none;
+    padding: 0 100px;
+}
+
+/* All Sections ------------------------------- */
+main .section {
+    margin-top: 38px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+main .section .img-div {
+    
+    max-width: 495px;
+    padding-right: 36px;
+}
+/* Content */
+main .section .content {
+    text-align: left;
+    padding-left: 124px;
+    padding-right: 132px;
+}
+/* Header */
+main .section .content .header {
+    font-size: 30px;
+}
+/* Paragraph */
+main .section .content .paragraph {
+    
+    padding: 0;
+    font-size: 18px;
+    max-width: 509px;
+    line-height: 23px;
+}
+
+/* Just For "Section 1" & "Section 2" & "Section 3" */
+/* Just Section 1 */
+.section-1 {
+    
+}
+/* Just Section 2 */
+main .section.section-2 {
+    padding-left: 81px;
+    margin-top: 38px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+/* Just Section 3 */
+.section-3 {
+    
+}
+}
